@@ -5,6 +5,9 @@ on:
         branches: 
             - main
 
+env:
+  SOME_VARIABLE: "My pretty own variable"
+
 jobs:
     build-and-push:
         runs-on: ubuntu-latest
